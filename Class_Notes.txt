@@ -3,6 +3,9 @@ Django Crash Course
 Moderator: Daniel Feldroy
 July  16 
 
+twitch.tv/danielfeldroy
+youtube.com/c/danielfeldroy
+
 The apps.py is used by Django to registry an app into Django internal apps registry, 
 to be able to Django discover the app, custom management commands, template tags, 
 templates, and other things.apps.py should include a python class that inherits from 
