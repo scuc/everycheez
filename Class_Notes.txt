@@ -1,0 +1,21 @@
+
+Django Crash Course
+Moderator: Daniel Feldroy
+July  16 
+
+The apps.py is used by Django to registry an app into Django internal apps registry, 
+to be able to Django discover the app, custom management commands, template tags, 
+templates, and other things.apps.py should include a python class that inherits from 
+the Django's AppConfig class and it should be included on INSTALLED_APPSfor example, 
+if you move your app to a subdirectory, you must update the name parameter of the 
+AppConfig class of the app, to match the new path to the app
+You can read more in
+https://docs.djangoproject.com/en/3.0/ref/applications/#for-application-authors
+
+    def get_context_data(self, **kwargs):
+        super().get_context_date(**kwargs)
+        context['my_statement'] = "my important statement."
+        return context
+
+# super() - maintains inheritence from the parent classes. 
+# super() - calls the parent class. ("supervisor" class). 
