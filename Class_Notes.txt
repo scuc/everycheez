@@ -55,3 +55,6 @@ http://bit.ly/django-db- models-ForeignKey
 
 Django Database Performance
 https://spellbookpress.com/books/temple-of-django-database-performance/
+
+
+https://daniel.feldroy.com/python-f-strings-are-fun.html
