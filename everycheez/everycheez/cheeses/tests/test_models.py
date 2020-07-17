@@ -1,7 +1,7 @@
 import pytest
 
-from .factories import CheeseFactory
 from ..models import Cheese
+from .factories import CheeseFactory
 
 pytestmark = pytest.mark.django_db
 
