@@ -5,6 +5,8 @@ July  16
 
 twitch.tv/danielfeldroy
 youtube.com/c/danielfeldroy
+https://github.com/feldroy/everycheese
+https://github.com/feldroy/django-crash-course
 
 https://docs.python-guide.org/writing/style/
 
@@ -14,6 +16,7 @@ templates, and other things.apps.py should include a python class that inherits 
 the Django's AppConfig class and it should be included on INSTALLED_APPSfor example, 
 if you move your app to a subdirectory, you must update the name parameter of the 
 AppConfig class of the app, to match the new path to the app
+
 You can read more in
 https://docs.djangoproject.com/en/3.0/ref/applications/#for-application-authors
 
@@ -24,3 +27,15 @@ https://docs.djangoproject.com/en/3.0/ref/applications/#for-application-authors
 
 # super() - maintains inheritence from the parent classes. 
 # super() - calls the parent class. ("supervisor" class). 
+
+https://www.stavros.io/posts/fastapi-with-django/
+
+Django Rest Framework - "the standard for employment in the Django world"
+https://www.django-rest-framework.org
+DRF - has really good/intelligent default values 
+
+HTTP Methods - common job interview question. essential to understand. 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+*** Django Braces - has lots of additional mixins
+https://django-braces.readthedocs.io/en/latest/
