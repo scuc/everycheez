@@ -45,6 +45,10 @@ https://factoryboy.readthedocs.io/
 
 Dont use Lambda functions - cant get test coverage on lambda functions.
 
-
+----------------------
 https://events.eventzilla.net/e/django-best-practices-the-two-scoops-way-2138797976
 CODE: TSD-AUGUST
+----------------------
+
+Django Docs on Foreign Keys: 
+http://bit.ly/django-db- models-ForeignKey
