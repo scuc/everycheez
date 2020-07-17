@@ -52,3 +52,6 @@ CODE: TSD-AUGUST
 
 Django Docs on Foreign Keys: 
 http://bit.ly/django-db- models-ForeignKey
+
+Django Database Performance
+https://spellbookpress.com/books/temple-of-django-database-performance/
