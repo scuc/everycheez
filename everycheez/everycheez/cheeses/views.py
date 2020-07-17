@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView, CreateView, DetailView
-
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Cheese
 
 
@@ -12,7 +12,7 @@ class CheeseDetailView(DetailView):
     model = Cheese
 
 
-class CheeseCreateView(CreateView): 
+class CheeseCreateView(LoginRequiredMixin, CreateView):
     model = Cheese
     fields = [
         "name",
