@@ -3,10 +3,13 @@ Django Crash Course
 Moderator: Daniel Feldroy
 July  16 
 
+contact: hi@feldroy.com
+
 twitch.tv/danielfeldroy
-youtube.com/c/danielfeldroy
+youtube.com/danielfeldroy
 https://github.com/feldroy/everycheese
 https://github.com/feldroy/django-crash-course
+https://www.patreon.com/feldroy
 
 https://docs.python-guide.org/writing/style/
 
